@@ -14,7 +14,7 @@ So that if you do the following steps, you can demo the bug:
 1. Get a copy of Telegram Desktop application.
 2. Login to Telegram using one of your accounts.
 3. Copy the `tdata` folder (or the whole Telegram folder (just `tdata` matters)) to somewhere else.
-4. Kill the session you opened in step 2 on your device; so that both Telegram folders are now logged out.
+4. Kill the session you opened in step 2 on another device; so that both Telegram folders are now logged out. (session killed)
 5. Use the one of Telegram folders (original or copied one) to login to another Telegram account.
 6. Now if you open the other folder, it will open the same session as the one in step 5.
 
