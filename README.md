@@ -20,8 +20,9 @@ So that if you do the following steps, you can demo the bug:
 
 
 It IS a bug for sure, and it's (https://www.owasp.org/index.php/Session_fixation)[Session Fixation].
+___
 ![Email](https://raw.githubusercontent.com/mtp1376/tgBug/master/BB.png "Our mail to Security at Telegram")
-
+___
 Authors:
 * (https://github.com/Rootkitsmm)[@Rootkitsmm]
 * (https://github.com/mtp1376)[@mtp1376]
