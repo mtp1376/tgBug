@@ -2,8 +2,9 @@
 Admist our researches on (https://github.com/telegramdesktop/tdesktop)[Telegram Desktop application], we found a Session Fixation bug, which could lead to full account hijack, alongside with bypassing two-step verification and logging in without any sessions getting recorded.
 
 # Preface
-As you know(?), all login datas in Telegram Desktop application are saved inside the `tdata` folder beside the `Telegram.exe` app, so if someone copies that folder, the login could be moved to another system.
-By taking advantage of this bug, we force Telegram Desktop application to use *Our Token*, so that we are able to use a login on another system on ours.
+Telegram Desktop application does not generate a new token for login when an invalid token(not logged in) is there in the `tdata` folder.
+
+So that if we put an invalid token inside a `tdata` folder in someone's Telegram folder, we'll be able to hijack his account, without creating any sessions on his account, and off course bypassing two-step verification.
 
 # Description
 The Session Fixation bug appears on the app because "when a session is closed, the token assigned to it doesn't get revoked or replaced by a new one, but it gets re-used".
