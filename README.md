@@ -1,5 +1,5 @@
 # The Bug
-Admist our researches on [Telegram Desktop application](https://github.com/telegramdesktop/tdesktop), we found a Session Fixation bug, which could lead to full account hijack, alongside with bypassing two-step verification and logging in without any sessions getting recorded.
+Amidst our researches on [Telegram Desktop application](https://github.com/telegramdesktop/tdesktop), we found a Session Fixation bug, which could lead to full account hijack, alongside with bypassing two-step verification and logging in without any sessions getting recorded.
 
 # Preface
 Telegram Desktop application does not generate a new token for login when an invalid token(not logged in) is there in the `tdata` folder.
