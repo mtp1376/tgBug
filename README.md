@@ -24,5 +24,5 @@ ___
 ![Email](https://raw.githubusercontent.com/mtp1376/tgBug/master/BB.png "Our mail to Security at Telegram")
 ___
 Authors:
-* (https://github.com/Rootkitsmm)[@Rootkitsmm]
-* (https://github.com/mtp1376)[@mtp1376]
+* [@Rootkitsmm](https://github.com/Rootkitsmm)
+* [@mtp1376](https://github.com/mtp1376)
