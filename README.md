@@ -18,6 +18,7 @@ So that if you do the following steps, you can demo the bug:
 5. Use the one of Telegram folders (original or copied one) to login to another Telegram account.
 6. Now if you open the other folder, it will open the same session as the one in step 5.
 
+![Chart](https://raw.githubusercontent.com/sinabakh/tgBug/master/Chart.png "The Bug's chart")
 
 It IS a bug for sure, and it's a [Session Fixation](https://www.owasp.org/index.php/Session_fixation).
 ___
