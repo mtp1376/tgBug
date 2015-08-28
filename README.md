@@ -4,7 +4,7 @@ Admist our researches on (https://github.com/telegramdesktop/tdesktop)[Telegram 
 # Preface
 Telegram Desktop application does not generate a new token for login when an invalid token(not logged in) is there in the `tdata` folder.
 
-So that if we put an invalid token inside a `tdata` folder in someone's Telegram folder, we'll be able to hijack his account, without creating any sessions on his account, and off course bypassing two-step verification.
+So that if we put an invalid token inside a `tdata` folder in someone's Telegram folder, our invalid token get's used for login, and we'll be able to hijack his account, without creating any sessions on his account, and off course bypassing two-step verification.
 
 # Description
 The Session Fixation bug appears on the app because "when a session is closed (or when there is an invalid token there in the `tdata`), the token assigned to it does get revoked, but doesn't get replaced by a new one, so it gets re-used for the next login".
