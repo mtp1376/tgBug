@@ -4,7 +4,7 @@ Admist our researches on (https://github.com/telegramdesktop/tdesktop)[Telegram 
 # Preface
 As you know(?), all login datas in Telegram Desktop application are saved inside the `tdata` folder beside the `Telegram.exe` app, so if anybody copy that folder, an account hijack happens.
 
-# Intro
+# Description
 The Session Fixation bug appears on the app because "when a session is closed, the token assigned to it doesn't get revoked or replaced by a new one, but it gets re-used".
 So that if you do the following steps, you can demo the bug:
 1- Get a copy of Telegram Desktop application.
